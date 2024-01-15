@@ -10,7 +10,14 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
-  // your config
+  apiKey: "AIzaSyAof7efyAe7FWlU1Dk3iEWLnZCBH2e-a7w",
+  authDomain: "super-chatroom.firebaseapp.com",
+  projectId: "super-chatroom",
+  storageBucket: "super-chatroom.appspot.com",
+  messagingSenderId: "397475664903",
+  appId: "1:397475664903:web:c407924e536c040da7c6a2",
+  measurementId: "G-7W7QS9XL6W"
+
 })
 
 const auth = firebase.auth();
