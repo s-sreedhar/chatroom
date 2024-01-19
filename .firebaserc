@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "super-chatroom",
+    "staging": "super-chatroom",
+    "chat": "super-chatroom"
+  },
+  "targets": {},
+  "etags": {}
+}
